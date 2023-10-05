@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=12:antialias=true:autohint=true";
-static char *font2[] = { "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "mono:pixelsize=17:antialias=true:autohint=true";
+static char *font2[] = { "NotoColorEmoji:pixelsize=16:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -113,27 +113,27 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+	"#232A2E", /* background */
+	"#E67E80", /* red */
+	"#A7C080", /* green */
+	"#E69875", /* orange */
+	"#7FBBB3", /* blue */
+	"#D699B6", /* purple */
+	"#A7C080", /* statusline1 */
+	"#D3C6AA", /* statusline2 */
+	"#514045", /* bg_red */
+	"#E67E80", /* statusline3 */
+	"#A7C080", /* statusline1 */
+	"#DBBC7F", /* yellow */
+	"#83C092", /* aqua */
+	"#D699B6", /* purple */
+	"#A7C080", /* green */
+	"#D3C6AA", /* statusline2 */
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
-	"#282828", /* 258 -> bg */
+	"#181818", /* 258 -> bg */
 	"#ebdbb2", /* 259 -> fg */
 };
 
